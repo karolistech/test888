@@ -5,7 +5,8 @@
 }
 
 button {
-  padding: 0.5rem;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 
 .btn1 {
@@ -14,14 +15,15 @@ button {
 
 .btn1:active {
   background-color: red;
-  border: red;
-  color: red;
 }
 
-.btn2:active {
-  background-color: red;
+.btn2 {
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
 }
+
 
 .btn3 {
-  all: unset;
+
 }
